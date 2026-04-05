@@ -1,0 +1,45 @@
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+p{
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    font-size: 20px;
+}
+
+body{
+    background-image: url(assets/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: opacity(1);
+}
+
+.container{
+    display: flex;
+    content: center;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+}
+
+.card{
+    text-align: center;
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.724);
+    ;
+}
